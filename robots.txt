@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: 
+Disallow: /img
+Sitemap: http://kaimod.bigboom.info/sitemap.xml 
