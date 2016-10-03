@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?php
+$text = '<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -11,45 +12,22 @@
         <!-- Favicons -->
         <link rel="shortcut icon" href="img/fav.png">
         <!-- Custom Fonts -->
-        <!--<link href="css/combine.css" rel="stylesheet">-->
-        <!--<link  href="css/font-awesome.min.css" rel="stylesheet">-->
-        <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>-->
-        <!--<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>-->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" type="text/css">
         <!-- Bootstrap Core CSS -->
-        <!--xx<link href="css/bootstrap.min.css" rel="stylesheet">-->
-        <!--<link href="css/bootstrap.css" rel="stylesheet">-->
-        <!--<link href="css/owl.theme.css" rel="stylesheet">-->
-        <!--<link href="css/owl.carousel.css" rel="stylesheet">-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/owl.theme.css" rel="stylesheet">
+        <link href="css/owl.carousel.css" rel="stylesheet">
         <!-- Pretty Photo CSS -->
-        <!--        <link href="css/prettyPhoto.css" rel="stylesheet"/>-->
-        <!--<link rel="stylesheet" href="css/smoothslides.theme.css">-->
-        <!--<link rel="stylesheet" href="style.css">-->
+        <link href="css/prettyPhoto.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/smoothslides.theme.css">
+        <link rel="stylesheet" href="style.css">
         <link href="css/responsive.css" rel="stylesheet">
-        <noscript id="deferred-styles">
-        <link href="css/combine.css" rel="stylesheet">
-        </noscript>
-        <script>
-            var loadDeferredStyles = function () {
-                var addStylesNode = document.getElementById("deferred-styles");
-                var replacement = document.createElement("div");
-                replacement.innerHTML = addStylesNode.textContent;
-                document.body.appendChild(replacement)
-                addStylesNode.parentElement.removeChild(addStylesNode);
-            };
-            var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-                    webkitRequestAnimationFrame || msRequestAnimationFrame;
-            if (raf)
-                raf(function () {
-                    window.setTimeout(loadDeferredStyles, 0);
-                });
-            else
-                window.addEventListener('load', loadDeferredStyles);
-        </script>
     </head>
 
     <body id="page-top" class="index four">
-
-
         <!-- Navigation -->
         <nav id="header_nav" class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -70,7 +48,7 @@
                         <li> <a href="#bride_groom_sec">คู่บ่าวสาว</a> </li>
                         <li> <a href="#events">กำหนดการ</a> </li>
                         <li> <a href="#love_story">เรื่องราวของเรา</a> </li>
-                        <li> <a href="#family">เจ้าภาพ</a> </li>
+                        <li> <a href="#family">ครอบครัวของพวกเรา</a> </li>
                         <li> <a href="#photo_gallery">แกลเลอรี่</a> </li>                      
                         <!--<li> <a href="#blog">Blog</a> </li>-->
                         <li> <a href="#rsvp">RSVP</a> </li>
@@ -349,7 +327,7 @@
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs" role="tablist">
                                 <li role="presentation" class="active"><a href="#story1" aria-controls="story1" role="tab" data-toggle="tab"><img src="img/two/meet1.png" alt="" /><img src="img/two/meet2.png" alt="" /></a></li>
-                                <!--<li role="presentation"><a href="#story2" aria-controls="story2" role="tab" data-toggle="tab"><img src="img/two/kiss1.png" alt="" /><img src="img/two/kiss2.png" alt="" /></a></li>-->
+                                <li role="presentation"><a href="#story2" aria-controls="story2" role="tab" data-toggle="tab"><img src="img/two/kiss1.png" alt="" /><img src="img/two/kiss2.png" alt="" /></a></li>
                                 <li role="presentation"><a href="#story3" aria-controls="story3" role="tab" data-toggle="tab"><img src="img/two/trip1.png" alt="" /><img src="img/two/trip2.png" alt="" /></a></li>
                                 <li role="presentation"><a href="#story4" aria-controls="story4" role="tab" data-toggle="tab"><img src="img/two/engage1.png" alt="" /><img src="img/two/engage2.png" alt="" /></a></li>
                                 <li role="presentation"><a href="#story5" aria-controls="story5" role="tab" data-toggle="tab"><img src="img/two/pregnant1.png" alt="" /><img src="img/two/pregnant2.png" alt="" /></a></li>
@@ -361,7 +339,7 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="love_story_img">
-                                                <img src="img/placehold/lovestory2-1.png" alt="" />	 
+                                                <img src="img/placehold/lovestory2.png" alt="" />	 
                                             </div>
                                         </div>	
                                         <div class="col-md-6">
@@ -376,30 +354,30 @@
                                         </div>
                                     </div>		
                                 </div>
-                                <!--                                <div role="tabpanel" class="tab-pane fade" id="story2">
-                                                                    <div class="row">
-                                                                        <div class="col-md-6">
-                                                                            <div class="love_story_img">
-                                                                                <img src="img/placehold/lovestory2.png" alt="" />	 
-                                                                            </div>
-                                                                        </div>	
-                                                                        <div class="col-md-6">
-                                                                            <div class="love_story_details"> 
-                                                                                <p class="posting_date">february 19,2013</p> 
-                                                                                <h3><a href="#">Our first kiss</a></h3>
-                                                                                <p class="post_text">
-                                                                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                                                                </p>
-                                                                                <a href="#" class="read_more">Read More <img class="arrow" src="img/arrow.png" alt="" /><img class="arrow-hov" src="img/arrow-hov.png" alt="" /></a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>		
-                                                                </div>-->
+                                <div role="tabpanel" class="tab-pane fade" id="story2">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="love_story_img">
+                                                <img src="img/placehold/lovestory2.png" alt="" />	 
+                                            </div>
+                                        </div>	
+                                        <div class="col-md-6">
+                                            <div class="love_story_details"> 
+                                                <p class="posting_date">february 19,2013</p> 
+                                                <h3><a href="#">Our first kiss</a></h3>
+                                                <p class="post_text">
+                                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                                </p>
+                                                <a href="#" class="read_more">Read More <img class="arrow" src="img/arrow.png" alt="" /><img class="arrow-hov" src="img/arrow-hov.png" alt="" /></a>
+                                            </div>
+                                        </div>
+                                    </div>		
+                                </div>
                                 <div role="tabpanel" class="tab-pane fade" id="story3">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="love_story_img">
-                                                <img src="img/placehold/lovestory2-2.png" alt="" />	 
+                                                <img src="img/placehold/lovestory2.png" alt="" />	 
                                             </div>
                                         </div>	
                                         <div class="col-md-6">
@@ -418,7 +396,7 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="love_story_img">
-                                                <img src="img/placehold/lovestory2-3.png" alt="" />	 
+                                                <img src="img/placehold/lovestory2.png" alt="" />	 
                                             </div>
                                         </div>	
                                         <div class="col-md-6">
@@ -437,7 +415,7 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="love_story_img">
-                                                <img src="img/placehold/lovestory2-4.png" alt="" />	 
+                                                <img src="img/placehold/lovestory2.png" alt="" />	 
                                             </div>
                                         </div>	
                                         <div class="col-md-6">
@@ -483,12 +461,12 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="family_mem_caro_1">
-                                <h2 class="family_title">Kaimod Family</h2>
+                                <h2 class="family_title">Janes Family</h2>
                                 <div id="family_member1" class="family_mem_carosel">
                                     <div class="item">
                                         <div class="brd_grm_wrap">
                                             <div class="family_mem_img">
-                                                <img src="img/placehold/family-mem1-1.jpg" alt="" />
+                                                <img src="img/placehold/family-mem.png" alt="" />
                                             </div>
                                             <div class="heart_frame">
                                                 <img class="def_frm" src="img/family/heart.png" alt="" />
@@ -512,40 +490,90 @@
                                         <p class="relation">mother</p>
                                         <p class="family_txt_details">Nemo enim ipsam voluptatem quia voluptas sit.</p>
                                     </div>
-
-                                </div>	 
-                            </div>
-
-                            <div class="family_mem_caro_2">
-                                <h2 class="family_title">Boom Family</h2>
-                                <div id="family_member2" class="family_mem_carosel">
+                                    <div class="item Up">
+                                        <div class="brd_grm_wrap">
+                                            <div class="family_mem_img">
+                                                <img src="img/placehold/family-mem.png" alt="" />
+                                            </div>
+                                            <div class="heart_frame">
+                                                <img class="def_frm" src="img/family/family-mem-frm.png" alt="" /> 
+                                            </div>
+                                        </div>
+                                        <h3>John Connor</h3>
+                                        <p class="relation">brother</p>
+                                        <p class="family_txt_details">Nemo enim ipsam voluptatem quia voluptas sit.</p>
+                                    </div>
                                     <div class="item">
                                         <div class="brd_grm_wrap">
                                             <div class="family_mem_img">
-                                                <img src="img/placehold/family-mem2-1.jpg" alt="" />
+                                                <img src="img/placehold/family-mem.png" alt="" />
                                             </div>
                                             <div class="heart_frame">
                                                 <img class="def_frm" src="img/family/family-mem-frm.png" alt="" />
                                             </div>
                                         </div>
-                                        <h3>สมบัติ แสงมณี</h3>
+                                        <h3>John Connor</h3>
+                                        <p class="relation">sister</p>
+                                        <p class="family_txt_details">Nemo enim ipsam voluptatem quia voluptas sit.</p>
+                                    </div>
+                                </div>	 
+                            </div>
+
+                            <div class="family_mem_caro_2">
+                                <h2 class="family_title">Johnes Family</h2>
+                                <div id="family_member2" class="family_mem_carosel">
+                                    <div class="item">
+                                        <div class="brd_grm_wrap">
+                                            <div class="family_mem_img">
+                                                <img src="img/placehold/family-mem.png" alt="" />
+                                            </div>
+                                            <div class="heart_frame">
+                                                <img class="def_frm" src="img/family/family-mem-frm.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <h3>John Connor</h3>
                                         <p class="relation">father</p>
                                         <p class="family_txt_details">Nemo enim ipsam voluptatem quia voluptas sit.</p>
                                     </div>
                                     <div class="item">
                                         <div class="brd_grm_wrap">
                                             <div class="family_mem_img">
-                                                <img src="img/placehold/family-mem2-2.jpg" alt="" />
+                                                <img src="img/placehold/family-mem.png" alt="" />
                                             </div>
                                             <div class="heart_frame">
                                                 <img class="def_frm" src="img/family/family-mem-frm.png" alt="" /> 
                                             </div>
                                         </div>
-                                        <h3>ธันยพร แสงมณี</h3>
+                                        <h3>John Connor</h3>
                                         <p class="relation">mother</p>
                                         <p class="family_txt_details">Nemo enim ipsam voluptatem quia voluptas sit.</p>
                                     </div>
-
+                                    <div class="item">
+                                        <div class="brd_grm_wrap">
+                                            <div class="family_mem_img">
+                                                <img src="img/placehold/family-mem.png" alt="" />
+                                            </div>
+                                            <div class="heart_frame">
+                                                <img class="def_frm" src="img/family/family-mem-frm.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <h3>John Connor</h3>
+                                        <p class="relation">brother</p>
+                                        <p class="family_txt_details">Nemo enim ipsam voluptatem quia voluptas sit.</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="brd_grm_wrap">
+                                            <div class="family_mem_img">
+                                                <img src="img/placehold/family-mem.png" alt="" />
+                                            </div>
+                                            <div class="heart_frame">
+                                                <img class="def_frm" src="img/family/family-mem-frm.png" alt="" />
+                                            </div>
+                                        </div>
+                                        <h3>John Connor</h3>
+                                        <p class="relation">sister</p>
+                                        <p class="family_txt_details">Nemo enim ipsam voluptatem quia voluptas sit.</p>
+                                    </div>
                                 </div>	 
                             </div>
                         </div>
@@ -699,13 +727,13 @@
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs" role="tablist">
                                 <li role="presentation">
-                                    <a href="#home"  class="" aria-controls="home" role="tab" data-toggle="tab"><img src="img/placehold/brw-grm1.jpg" alt="Bridemaid" /></a>
+                                    <a href="#home"  class="" aria-controls="home" role="tab" data-toggle="tab"><img src="img/placehold/br-grm.png" alt="Bridemaid" /></a>
                                 </li>
                                 <li role="presentation">
-                                    <a href="#profile" class="" aria-controls="profile" role="tab"  data-toggle="tab"><img src="img/placehold/brw-grm2.jpg" alt="Bridemaid" /></a>
+                                    <a href="#profile" class="" aria-controls="profile" role="tab"  data-toggle="tab"><img src="img/placehold/br-grm.png" alt="Bridemaid" /></a>
                                 </li>
                                 <li role="presentation" class="active">
-                                    <a href="#messages" aria-controls="messages" role="tab" class="" data-toggle="tab"><img src="img/placehold/brw-grm3.jpg" alt="Bridemaid" /></a>
+                                    <a href="#messages" aria-controls="messages" role="tab" class="" data-toggle="tab"><img src="img/placehold/br-grm.png" alt="Bridemaid" /></a>
                                 </li>
                             </ul>
 
@@ -760,9 +788,9 @@
                         <div class="gmen_nav" role="tabpanel">
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs" role="tablist">
-                                <li role="presentation" class="active"><a href="#groom1" class="" aria-controls="home" role="tab" data-toggle="tab"><img src="img/placehold/br-grm1.jpg" alt="Groomsmen" /></a></li>
-                                <li role="presentation"><a href="#groom2" class="" aria-controls="profile" role="tab"  data-toggle="tab"><img src="img/placehold/br-grm2.jpg" alt="Groomsmen" /></a></li>
-                                <li role="presentation"><a href="#groom3" class="" aria-controls="messages" role="tab"  data-toggle="tab"><img src="img/placehold/br-grm3.jpg" alt="Groomsmen" /></a></li>
+                                <li role="presentation" class="active"><a href="#groom1" class="" aria-controls="home" role="tab" data-toggle="tab"><img src="img/placehold/br-grm.png" alt="Groomsmen" /></a></li>
+                                <li role="presentation"><a href="#groom2" class="" aria-controls="profile" role="tab"  data-toggle="tab"><img src="img/placehold/br-grm.png" alt="Groomsmen" /></a></li>
+                                <li role="presentation"><a href="#groom3" class="" aria-controls="messages" role="tab"  data-toggle="tab"><img src="img/placehold/br-grm.png" alt="Groomsmen" /></a></li>
                             </ul>
 
                             <!-- Tab panes -->
@@ -844,38 +872,38 @@
                             <p class="section-subheading text-muted">Duis aute irure dolor in reprehenderit in voluptate. </p>
                         </div>
 
-                        <form method='post' action='contact.php' id='forms'>
+                        <form method="post" action="contact.php" id="forms">
                             <div class="form-group">
-                                <input name='name' type="text" class="form-control" id="name" required placeholder="Name">
+                                <input name="name" type="text" class="form-control" id="name" required placeholder="Name">
                             </div>
                             <div class="form-group">
-                                <input name='email' type="email" class="form-control" id="email" required placeholder="Email">
+                                <input name="email" type="email" class="form-control" id="email" required placeholder="Email">
                             </div>
                             <div class="form-group select_group select_guest">
-                                <select name='numguest' class="form-control select_frm" id="numguest">
+                                <select name="numguest" class="form-control select_frm" id="numguest">
                                     <option>No Of Guest</option>
-                                    <option value='1-Person'>01</option>
-                                    <option value='2-Persons'>02</option>
-                                    <option value='3-Persons'>03</option>
-                                    <option value='4-Persons'>04</option>
-                                    <option value='5-Persons'>05</option>
+                                    <option value="1-Person">01</option>
+                                    <option value="2-Persons">02</option>
+                                    <option value="3-Persons">03</option>
+                                    <option value="4-Persons">04</option>
+                                    <option value="5-Persons">05</option>
                                 </select>
                             </div>
                             <div class="form-group select_group select_attend">
-                                <select name='allevents' class="form-control selectpicker select_frm" id="allevents">
+                                <select name="allevents" class="form-control selectpicker select_frm" id="allevents">
                                     <option>All Events</option>
-                                    <option value='Wedding-Ceremony'>Wedding Ceremony</option>
-                                    <option value='Wedding-Party'>Wedding Party</option>
-                                    <option value='Dinner'>Dinner</option>
+                                    <option value="Wedding-Ceremony">Wedding Ceremony</option>
+                                    <option value="Wedding-Party">Wedding Party</option>
+                                    <option value="Dinner">Dinner</option>
                                 </select>
                             </div>
                             <div class="form-group select_group">
                                 <select name="attending" class="form-control selectpicker select_frm" id="attending">
-                                    <option value='Yes'>Yes, Absolutely</option>
-                                    <option value='No'>Sorry, Great Miss</option>
+                                    <option value="Yes">Yes, Absolutely</option>
+                                    <option value="No">Sorry, Great Miss</option>
                                 </select>
                             </div>
-                            <button type="submit" class="btn btn-default btn_attend" value='Send'>submit</button>
+                            <button type="submit" class="btn btn-default btn_attend" value="Send">submit</button>
                         </form>
                     </div><!-- .form_wrapper .two .new -->		
                 </div><!-- .col-lg-12	 -->
@@ -987,7 +1015,7 @@
         <!-- Modal End-->
         <!-- jQuery -->
         <script src="js/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
+        <script>window.jQuery || document.write("<script src="js/jquery.js"><\/script>")</script>
 
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
@@ -1005,12 +1033,11 @@
         <!-- Video Background JavaScript -->
         <script src="js/jquery.videobackground.js"></script>
         <script src="js/jquery.imageScroll.js"></script>
-        <!--Custom Theme JavaScript--> 
+        <!-- Custom Theme JavaScript -->
         <script src="js/site.js"></script>
-
         <script>
             (function (i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
+                i["GoogleAnalyticsObject"] = r;
                 i[r] = i[r] || function () {
                     (i[r].q = i[r].q || []).push(arguments)
                 }, i[r].l = 1 * new Date();
@@ -1019,12 +1046,32 @@
                 a.async = 1;
                 a.src = g;
                 m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
 
-            ga('create', 'UA-73610638-2', 'auto');
-            ga('send', 'pageview');
+            ga("create", "UA-73610638-2", "auto");
+            ga("send", "pageview");
 
         </script>
-
     </body>
-</html>
+</html>';
+function sanitize_output($buffer) {
+
+    $search = array(
+        '/\>[^\S ]+/s',  // strip whitespaces after tags, except space
+        '/[^\S ]+\</s',  // strip whitespaces before tags, except space
+        '/(\s)+/s'       // shorten multiple whitespace sequences
+    );
+
+    $replace = array(
+        '>',
+        '<',
+        '\\1'
+    );
+
+    $buffer = preg_replace($search, $replace, $buffer);
+
+    return $buffer;
+}
+
+ob_start("sanitize_output");
+echo sanitize_output($text);
