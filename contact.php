@@ -18,7 +18,7 @@ $message .= <<<TEXT
 TEXT;
 
 // Email to send to
-$to = 'support@themeonlab.com';
+$to = 'boom.to.contact@gmail.com';
 
 // Email Subject
 $subject = 'You have been contacted!';
